@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main:Second program
+ * main - Entry point
  *
- * description:Write on the screen
+ * Descripcion: "Programming is like building a multilingual puzzle"
  *
- * return:zero on success
+ * Return: Always zero success
 */
 
 int main(void)
