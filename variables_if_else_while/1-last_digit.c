@@ -21,15 +21,15 @@ int main(void)
 	if (n < 5)
 	{
 	/* if condition is true then print the following */
-		printf("%d and is great than 5\n", n);
+		printf("Last digit of %d and is  greater than 5\n", n);
 	}
 	else if (n == 0)
 	{
-		printf("%d and is 0\n", n);
+		printf("Last digit of %d and is 0\n", n);
 	}
 	else
 	{
-		printf("%d amd is less than 6 not 6 and not 0\n", n);
+		printf("Last digit of %d and is less than 6\n", n);
 	}
 	return (0);
 }
