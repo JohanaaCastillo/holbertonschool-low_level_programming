@@ -24,7 +24,7 @@ int main(void)
 	if (lastnumber > 5)
 	{
 	/* if condition is true then print the following */
-		printf("%s %d is %d and greater than 5\n", text, n, lastnumber);
+		printf("%s %d is %d and is greater than 5\n", text, n, lastnumber);
 	}
 	else if (lastnumber == 0)
 	{
