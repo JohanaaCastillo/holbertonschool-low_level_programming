@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: "Program: and that piece of art is useful" 
+ * Description: "Program: and that piece of art is useful"
  * "- Dora Korpar, 2015-10-19"
  *
  * Return: Always one success
