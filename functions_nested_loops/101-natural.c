@@ -6,21 +6,18 @@
  */
 int main(void)
 {
-	int counter = 0;
-	long int a = 1;
-	long int b = a;
-	long int c = a + b;
+	int a;
+	int b = 0;
 
-	while (c < 4000000)
+	for (a = 0; a < 1024; a++)
 	{
-		if (c % 2 == 0)
+		if (a % 3 == 0 || a % 5 == 0)
 		{
-			counter += c;
+			b += a;
 		}
-		a = b;
-		b = c;
-		c = a + b;
+
 	}
-	printf("%d\n", counter);
+	printf("%d\n", b);
 	return (0);
 }
+
