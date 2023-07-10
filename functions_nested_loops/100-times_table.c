@@ -4,7 +4,7 @@
 /**
  * print_times_table - times tables function
  *
- * @n : integer 
+ * @n : integer
  *
  * Return: Always 0.
 */
