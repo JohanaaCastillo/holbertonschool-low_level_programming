@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
-* _isupper - Function that multiplies two integers
+* mult - Function that multiplies two integers
 *
-*  @c: Integer
-*
-* Return: Always a + b
+* Return: Always a *b (Success)
 */
 int mul(int a, int b)
 {
