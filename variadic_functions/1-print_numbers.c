@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * print_numbers - function that prints numbers
+ * print_numbers - Function that prints numbers
  * @separator: char separator
- * @n: number of argument
+ * @n: const var
  */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
