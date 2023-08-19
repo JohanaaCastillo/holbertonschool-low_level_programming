@@ -10,7 +10,6 @@ in memory, which contains a copy of the string given as a parameter.
 * Return: NULL 
 */
 
-
 char *_strdup(char *str)
 {
 	int i, len;
