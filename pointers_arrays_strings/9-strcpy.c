@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_array - Function that print n elements of an of integers
+ * *_strcpy - Function that print n elements of an of integers
  *
  * @dest: string
  * @src: string
@@ -9,17 +9,17 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-    int i, j;
+int i, j;
 
-    i = 0;
-    while (src[i] != '\0')
-        {
-            i++;
-        }
-            j = i;
-            for (i = 0; i <= j; i++)
-            {
-                dest[i] = src[i];
-            }
-    return (dest);
+i = 0;
+while (src[i] != '\0')
+{
+i++;
+}
+j = i;
+for (i = 0; i <= j; i++)
+{
+dest[i] = src[i];
+}
+return (dest);
 }
