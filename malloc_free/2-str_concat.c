@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 /**
-* *_str_concat - Function that concatenates two string
+* *str_concat - Function that concatenates two string
 *
 * @s1: string 1
 * @s2: string 2
 *
-* Return: NULL 
+* Return: NULL
 */
 
 char *str_concat(char *s1, char *s2)
