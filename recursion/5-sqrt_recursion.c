@@ -4,8 +4,9 @@
  *
  * @n: int
  *
- * Return : Root
+ * Return: Root
  */
+
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
