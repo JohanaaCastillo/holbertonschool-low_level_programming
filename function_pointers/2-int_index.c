@@ -1,7 +1,7 @@
 #include "function_pointers.h"
 
 /**
-* array_iterator - Function a array
+* int_index - Function a array
 *
 *@array: int
 *@size: elements
